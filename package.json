@@ -2,12 +2,12 @@
   "name": "locu-api",
   "version": "0.0.1",
   "description": "API client for the beta Locu API 2.0",
-  "main": "lib/main.js",
+  "main": "lib/locu-api.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "jasmine test/*.js"
   },
   "repository": {
     "type": "git",
@@ -18,15 +18,17 @@
     "api",
     "node"
   ],
-  "author": "Brian Voelschow",
-  "license": "ISC",
+  "author": "Brian Voelschow <bvoelsch@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bvoelsch/locu-api/issues"
   },
   "homepage": "https://github.com/bvoelsch/locu-api",
-  "dependencies" : {},
+  "dependencies" : {
+    "request" : "",
+    "querystring" : ""
+  },
   "devDependencies" : {
-    "mocha" : "",
-    "should" : ""
+    "jasmine-node" : ""
   }
 }
