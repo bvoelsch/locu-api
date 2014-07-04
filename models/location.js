@@ -1,4 +1,4 @@
-module.exports = { 
+var Location = { 
   address1 : "",
   address2 : "",
   address3 : "",
@@ -8,3 +8,4 @@ module.exports = {
   country : "",
   geo : {}
 };
+module.exports = Location;
